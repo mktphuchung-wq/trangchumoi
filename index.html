@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories of Polynesian Pride | Cultural Hub</title>
+    <meta name="description" content="Discover the heartbeat of the Pacific. Stories of culture, travel, and island life from Polynesia, Melanesia, and Micronesia.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'script': ['"Great Vibes"', 'cursive'],
+                        'body': ['"Montserrat"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            red: '#b91c1c', // Màu nút Shop Now
+                            dark: '#1a1a1a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-body text-gray-800 antialiased">
+
+    <header class="fixed w-full top-0 z-50 transition-all duration-300" id="main-header">
+        <div class="bg-white/95 backdrop-blur-md shadow-sm">
+            <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+                <a href="/" class="flex-shrink-0">
+                    <div class="border-2 border-black px-2 py-1 flex items-center gap-2">
+                        <i class="fa-solid fa-mask text-2xl"></i>
+                        <div class="flex flex-col leading-none">
+                            <span class="font-bold text-sm tracking-widest uppercase">Polynesian</span>
+                            <span class="font-bold text-sm tracking-widest uppercase">Pride™</span>
+                        </div>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-8 font-medium text-sm text-gray-700">
+                    <a href="#" class="hover:text-brand-red transition">Holidays & Festivals</a>
+                    <a href="#" class="hover:text-brand-red transition">Fashion</a>
+                    
+                    <div class="group relative cursor-pointer py-4">
+                        <span class="flex items-center gap-1 hover:text-brand-red">Polynesia <i class="fa-solid fa-chevron-down text-xs"></i></span>
+                        <div class="absolute top-full left-0 w-48 bg-white shadow-xl rounded-b-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform translate-y-2 group-hover:translate-y-0">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-50">Hawaii</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-50">Samoa</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-50">Tonga</a>
+                        </div>
+                    </div>
+
+                    <div class="group relative cursor-pointer">
+                        <span class="flex items-center gap-1 hover:text-brand-red">Melanesia <i class="fa-solid fa-chevron-down text-xs"></i></span>
+                    </div>
+
+                    <div class="group relative cursor-pointer">
+                        <span class="flex items-center gap-1 hover:text-brand-red">Micronesia <i class="fa-solid fa-chevron-down text-xs"></i></span>
+                    </div>
+                </nav>
+
+                <div class="flex items-center gap-5">
+                    <button aria-label="Search" class="text-gray-600 hover:text-black"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <a href="#" class="bg-brand-red text-white px-6 py-2 rounded font-semibold text-sm hover:bg-red-800 transition shadow-lg">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative h-[85vh] flex items-center justify-center overflow-hidden mt-[60px]">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?q=80&w=2070&auto=format&fit=crop" 
+                 alt="Polynesian Dancers Background" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10"></div>
+        </div>
+
+        <div class="relative z-10 text-center text-white px-4 pt-20">
+            <h1 class="font-script text-7xl md:text-9xl mb-4 drop-shadow-lg" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Show Your Pride</h1>
+            <p class="text-xl md:text-2xl font-light tracking-wide drop-shadow-md">Woven in Tradition. Styled by the Islands.</p>
+            
+            <div class="mt-8 animate-bounce">
+                <i class="fa-solid fa-chevron-down text-2xl opacity-80"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl font-bold text-brand-dark mb-4">Discover The Pacific Spirit</h2>
+            <p class="text-gray-600 leading-relaxed text-lg">
+                Welcome to the digital heart of Oceania. From the fiery rhythms of Polynesia to the ancient mysteries of Melanesia and the pristine atolls of Micronesia. We curate stories that bridge generations, celebrating the <strong>Culture, Arts, and Island Life</strong> that define who we are.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-end mb-10">
+                <div>
+                    <span class="text-brand-red font-bold uppercase tracking-widest text-xs">Fresh from the Islands</span>
+                    <h2 class="text-3xl font-bold text-gray-900 mt-2">The Pacific Pulse</h2>
+                </div>
+                <a href="#" class="hidden md:inline-block text-sm font-semibold border-b-2 border-brand-red pb-1 hover:text-brand-red">View All Stories</a>
+            </div>
+
+            <div id="latest-stories-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="animate-pulse h-80 bg-gray-200 rounded-lg"></div>
+                <div class="animate-pulse h-80 bg-gray-200 rounded-lg"></div>
+                <div class="animate-pulse h-80 bg-gray-200 rounded-lg"></div>
+                <div class="animate-pulse h-80 bg-gray-200 rounded-lg"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Explore by Topic</h2>
+                <p class="text-gray-500 mt-2">Curated collections for every interest</p>
+            </div>
+
+            <div id="topic-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-dark text-white overflow-hidden">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Explore Our Regions</h2>
+            
+            <div class="flex justify-center gap-4 mb-10" id="region-tabs">
+                <button class="region-tab active px-6 py-2 rounded-full border border-white bg-white text-brand-dark font-bold transition" data-region="Polynesia">Polynesia</button>
+                <button class="region-tab px-6 py-2 rounded-full border border-gray-600 hover:border-white text-gray-300 hover:text-white transition" data-region="Melanesia">Melanesia</button>
+                <button class="region-tab px-6 py-2 rounded-full border border-gray-600 hover:border-white text-gray-300 hover:text-white transition" data-region="Micronesia">Micronesia</button>
+            </div>
+
+            <div class="relative">
+                <div id="region-content" class="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+                    </div>
+                
+                <div class="absolute right-0 top-0 bottom-8 w-24 bg-gradient-to-l from-brand-dark to-transparent pointer-events-none"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-8 text-center border-t border-gray-800">
+        <p class="text-sm text-gray-500">© 2026 Polynesian Pride. WebCraft SEO Architecture Demo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
