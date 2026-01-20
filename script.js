@@ -6,30 +6,30 @@
 // 1. MOCK DATABASE (Giả lập API từ Shopify/CMS)
 const mockData = {
     articles: [
-        { id: 101, title: "The Sacred Tatau: More Than Ink", tag: "Culture", image: "https://images.unsplash.com/photo-1596306499317-84902290b8e4?auto=format&fit=crop&w=600", date: "Oct 24, 2025", blog: "Samoa" },
-        { id: 102, title: "Top 10 Hidden Beaches in Fiji", tag: "Travel", image: "https://images.unsplash.com/photo-1596423736502-39257e87315a?auto=format&fit=crop&w=600", date: "Oct 22, 2025", blog: "Fiji" },
+        { id: 101, title: "The Sacred Tatau: More Than Ink", tag: "Culture", image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e", date: "Oct 24, 2025", blog: "Samoa" },
+        { id: 102, title: "Top 10 Hidden Beaches in Fiji", tag: "Travel", image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e", date: "Oct 22, 2025", blog: "Fiji" },
         { id: 103, title: "Weaving the Future: Modern Mats", tag: "Arts", image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=600", date: "Oct 20, 2025", blog: "Tonga" },
-        { id: 104, title: "Merrie Monarch Festival 2025 Guide", tag: "Holidays", image: "https://images.unsplash.com/photo-1505307520037-c79a9e32f05a?auto=format&fit=crop&w=600", date: "Oct 18, 2025", blog: "Hawaii" },
+        { id: 104, title: "Merrie Monarch Festival 2025 Guide", tag: "Holidays", image: "https://images.unsplash.com/photo-1583846369027-edecee8d83be", date: "Oct 18, 2025", blog: "Hawaii" },
         { id: 105, title: "Island Fashion Week Highlights", tag: "Fashion", image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600", date: "Oct 15, 2025", blog: "PNG" },
-        { id: 106, title: "Sustainable Fishing in Micronesia", tag: "Island Life", image: "https://images.unsplash.com/photo-1582967788606-a171f1080ca8?auto=format&fit=crop&w=600", date: "Oct 10, 2025", blog: "FSM" },
+        { id: 106, title: "Sustainable Fishing in Micronesia", tag: "Island Life", image: "https://images.unsplash.com/photo-1553603227-2358aabe821e", date: "Oct 10, 2025", blog: "FSM" },
         { id: 107, title: "Understanding the Haka", tag: "Culture", image: "https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?auto=format&fit=crop&w=600", date: "Oct 05, 2025", blog: "NZL" },
-        { id: 108, title: "Cook Islands: A Paradise Found", tag: "Travel", image: "https://images.unsplash.com/photo-1536697277808-8dc0386762da?auto=format&fit=crop&w=600", date: "Sep 28, 2025", blog: "Cook Islands" },
+        { id: 108, title: "Cook Islands: A Paradise Found", tag: "Travel", image: "https://images.unsplash.com/photo-1604988162322-d5d678a1d993", date: "Sep 28, 2025", blog: "Cook Islands" },
     ],
     regions: {
         "Polynesia": [
-            { name: "Hawaii", img: "https://images.unsplash.com/photo-1542259646-cd6643267d3b?w=400" },
-            { name: "New Zealand", img: "https://images.unsplash.com/photo-1589802829985-817e51171b92?w=400" },
-            { name: "Samoa", img: "https://images.unsplash.com/photo-1596306499300-0b7c168e4a5d?w=400" },
-            { name: "Tonga", img: "https://images.unsplash.com/photo-1562953218-d760742f8454?w=400" }
+            { name: "Hawaii", img: "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65" },
+            { name: "New Zealand", img: "https://images.unsplash.com/photo-1547314283-befb6cc5cf29" },
+            { name: "Samoa", img: "https://images.unsplash.com/photo-1529977213785-feeaa9cda921" },
+            { name: "Tonga", img: "https://plus.unsplash.com/premium_photo-1733306474431-812ecf195865" }
         ],
         "Melanesia": [
-            { name: "Fiji", img: "https://images.unsplash.com/photo-1574620026266-932d03e5c7a0?w=400" },
-            { name: "PNG", img: "https://images.unsplash.com/photo-1558963595-827606e9275b?w=400" },
-            { name: "Vanuatu", img: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=400" }
+            { name: "Fiji", img: "https://plus.unsplash.com/premium_photo-1716025288906-6b6f44f882cb" },
+            { name: "PNG", img: "https://plus.unsplash.com/premium_photo-1724695600333-7e4400b51029" },
+            { name: "Vanuatu", img: "https://images.unsplash.com/photo-1552643450-44f3e5c7d875" }
         ],
         "Micronesia": [
-            { name: "Guam", img: "https://images.unsplash.com/photo-1598980756779-11762111550c?w=400" },
-            { name: "Palau", img: "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=400" }
+            { name: "Guam", img: "https://images.unsplash.com/photo-1662863256389-3d897324bd7a" },
+            { name: "Palau", img: "https://images.unsplash.com/photo-1714120726489-e774f8cb02e2" }
         ]
     }
 };
