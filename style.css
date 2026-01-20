@@ -1,0 +1,40 @@
+/* Custom Scrollbar Hide for Section 3 */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Tab Active States */
+.region-tab.active {
+    background-color: white;
+    color: #1a1a1a;
+    border-color: white;
+}
+
+/* Card Hover Effects */
+.story-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Zoom Effect */
+.img-zoom-container {
+    overflow: hidden;
+}
+.img-zoom-container img {
+    transition: transform 0.5s ease;
+}
+.story-card:hover .img-zoom-container img {
+    transform: scale(1.05);
+}
+
+/* Typography Overrides */
+h1, h2, h3 {
+    letter-spacing: -0.02em;
+}
